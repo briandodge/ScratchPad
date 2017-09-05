@@ -4,7 +4,7 @@
 #include "stdafx.h"
 #include <iostream>
 
-//namespace std
+using namespace std;
 
 
 void swap(int *num1, int *num2) {
@@ -32,6 +32,8 @@ int main()
 	
 	std::cout << "Number 1: " << number1 << std::endl;
 	std::cout << "Number 2: " << number2 << std::endl;
+
+
 
     return 0;
 }
